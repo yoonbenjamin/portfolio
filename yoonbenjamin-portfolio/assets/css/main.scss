@@ -1,0 +1,29 @@
+---
+search: false
+---
+
+@charset "utf-8";
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes"; 
+
+/* Custom styles */
+body {
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+h1, h2, h3 {
+  color: #007bff; /* Blue accent */
+}
+
+a {
+  color: #28a745; /* Green accent */
+}
+
+.btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
