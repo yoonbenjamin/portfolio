@@ -1,0 +1,17 @@
+@import "minimal-mistakes";
+
+// Custom overrides
+:root {
+  --primary-color: #00aaff;
+  --body-font-family: "Arial", sans-serif;
+  --heading-font-family: "Helvetica", sans-serif;
+}
+
+body {
+  font-family: var(--body-font-family);
+}
+
+h1, h2, h3 {
+  font-family: var(--heading-font-family);
+  color: var(--primary-color);
+}

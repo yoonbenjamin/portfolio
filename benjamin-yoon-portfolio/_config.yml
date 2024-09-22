@@ -1,0 +1,13 @@
+# Site settings
+title: "Benjamin Yoon's Portfolio"
+email: yoonb2002@gmail.com
+description: "A portfolio showcasing the work and skills of Benjamin Yoon, a software developer specializing in full-stack development, machine learning, and cloud computing."
+baseurl: "" # the subpath of your site, leave empty for root
+url: "https://yourusername.github.io" # Replace with your GitHub Pages URL
+twitter_username: benyoon
+github_username: yoonbenjamin
+
+# Build settings
+theme: minimal-mistakes-jekyll
+plugins:
+  - jekyll-feed
