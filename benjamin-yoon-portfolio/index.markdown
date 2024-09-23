@@ -3,7 +3,7 @@ layout: home
 title: "Benjamin Yoon | Software Developer"
 ---
 
-<div class="hero" style="background-image: url('/path/to/your/background-image.jpg');">
+<div class="hero" style="background-image: url('/assets/images/background-image.jpg');">
   <div class="hero__content">
     <h1>Welcome to My Portfolio</h1>
     <p>Hi, I'm <strong>Benjamin Yoon</strong>, a passionate Software Developer specializing in full-stack development, machine learning, and cloud computing.</p>
@@ -37,6 +37,6 @@ Designed a predictive model to identify fraudulent transactions for financial in
 
 ## Call to Action
 
-[View My Full Portfolio](portfolio.html)  
+[View My Full Portfolio](/portfolio/)  
 [Connect with Me on LinkedIn](https://www.linkedin.com/in/benyoon/)  
-[Download My Resume](resume.pdf)
+[Download My Resume](/assets/resume.pdf)
