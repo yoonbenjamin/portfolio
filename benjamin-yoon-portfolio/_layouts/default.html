@@ -3,34 +3,46 @@
 
 <!doctype html>
 {% include copyright.html %}
-<html lang="{{ site.locale | replace: "_", "-" | default: "en" }}" class="no-js">
-  <head>
-    {% include head.html %}
-    {% include head/custom.html %}
-  </head>
+<html lang="{{ site.locale | replace: " _", "-" | default: "en" }}" class="no-js">
 
-  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}" dir="{% if site.rtl %}rtl{% else %}ltr{% endif %}">
-    {% include_cached skip-links.html %}
-    {% include_cached masthead.html %}
+<head>
+  {% include head.html %}
+  {% include head/custom.html %}
+</head>
 
-    <div class="initial-content">
-      {{ content }}
-      {% include after-content.html %}
-    </div>
+<body
+  class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}"
+  dir="{% if site.rtl %}rtl{% else %}ltr{% endif %}">
+  {% include_cached skip-links.html %}
+  {% include_cached masthead.html %}
 
-    {% if site.search == true %}
-      <div class="search-content">
-        {% include_cached search/search_form.html %}
-      </div>
-    {% endif %}
+  <div class="initial-content">
+    {{ content }}
+    {% include after-content.html %}
+  </div>
 
-    <div id="footer" class="page__footer">
+  {% if site.search == true %}
+  <div class="search-content">
+    {% include_cached search/search_form.html %}
+  </div>
+  {% endif %}
+
+  <div id="footer" class="page__footer">
+    <div class="container">
       <footer>
-        {% include footer/custom.html %}
-        {% include_cached footer.html %}
+        <p>&copy; 2024 Benjamin Yoon's Portfolio. Powered by Jekyll & Minimal Mistakes.</p>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/portfolio/">Portfolio</a></li>
+          <li><a href="/about/">About</a></li>
+          <li><a href="/contact/">Contact</a></li>
+          <li><a href="/blog/">Blog</a></li>
+        </ul>
       </footer>
     </div>
+  </div>
 
-    {% include scripts.html %}
-  </body>
+  {% include scripts.html %}
+</body>
+
 </html>

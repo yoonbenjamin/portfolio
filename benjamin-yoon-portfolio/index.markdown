@@ -3,11 +3,13 @@ layout: home
 title: "Benjamin Yoon | Software Developer"
 ---
 
-# Welcome to My Portfolio
-
-Hi, I'm **Benjamin Yoon**, a passionate Software Developer specializing in full-stack development, machine learning, and cloud computing. I'm currently pursuing a B.S.E. in Computer Science at the University of Pennsylvania.
-
-Explore my projects, learn about my background, and feel free to connect with me!
+<div class="hero" style="background-image: url('/path/to/your/background-image.jpg');">
+  <div class="hero__content">
+    <h1>Welcome to My Portfolio</h1>
+    <p>Hi, I'm <strong>Benjamin Yoon</strong>, a passionate Software Developer specializing in full-stack development, machine learning, and cloud computing.</p>
+    <a href="/portfolio/" class="button">View My Projects</a>
+  </div>
+</div>
 
 ## Featured Projects
 

@@ -15,11 +15,45 @@
   --font-family-heading: "Arial", sans-serif;
 }
 
-/* General styles */
+/* General typography and spacing */
 body {
   font-family: "Helvetica", sans-serif;
-  background-color: var(--background-color);
-  color: var(--text-color);
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+}
+
+p {
+  margin-bottom: 1.5rem;
+}
+
+hr {
+  margin: 2rem 0;
+}
+
+/* Project section improvements */
+h2#featured-projects {
+  margin-top: 4rem;
+  /* Add extra space above this section */
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+a {
+  color: #00aaff;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 /* Navigation */
@@ -29,37 +63,6 @@ nav a {
 
 nav a:hover {
   color: var(--accent-color);
-  text-decoration: underline;
-}
-
-/* Buttons */
-button,
-a.button {
-  background-color: var(--primary-color);
-  color: white;
-  border: none;
-  padding: 0.75rem 1.25rem;
-  border-radius: 5px;
-  text-transform: uppercase;
-}
-
-button:hover,
-a.button:hover {
-  background-color: var(--accent-color);
-}
-
-h1,
-h2,
-h3 {
-  font-family: var(--font-family-heading);
-  color: var(--primary-color);
-}
-
-a {
-  color: var(--accent-color);
-}
-
-a:hover {
   text-decoration: underline;
 }
 
@@ -85,4 +88,127 @@ a:hover {
 
 .masthead__menu-item {
   display: inline-block;
+}
+
+/* Hero section styling */
+.hero {
+  background-size: cover;
+  background-position: center;
+  padding: 5rem 2rem;
+  text-align: center;
+  color: white;
+}
+
+.hero__content {
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Adds a subtle overlay on the background image */
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero .button {
+  background-color: #00aaff;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero .button:hover {
+  background-color: #0088cc;
+}
+
+/* Footer styling */
+.page__footer {
+  background-color: #333;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.page__footer a {
+  color: #00aaff;
+  text-decoration: none;
+}
+
+.page__footer a:hover {
+  text-decoration: underline;
+}
+
+.page__footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.page__footer li {
+  display: inline;
+  margin-right: 1rem;
+}
+
+/* Button styling */
+button,
+a.button {
+  background-color: #00aaff;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  border: none;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:hover,
+a.button:hover {
+  background-color: #0088cc;
+  box-shadow: 0 6px 8px rgba(245, 73, 73, 0.15);
+}
+
+/* Full-width sections */
+.full-width {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hero {
+    padding: 3rem 1rem;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .masthead__menu ul {
+    display: block;
+    text-align: center;
+  }
+
+  .masthead__menu-item {
+    display: block;
+    margin: 0.5rem 0;
+  }
 }
