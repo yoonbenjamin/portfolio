@@ -1,34 +1,38 @@
 ---
 layout: page
-title: Portfolio
+title: "Portfolio"
 permalink: /portfolio/
 ---
 
-# My Portfolio
+# My Projects
 
-Below are some of the projects I’ve worked on during my career as a Software Developer:
-
-## 1. Virtual Development Blueprint
-**Description:** Created a web app for The Home Depot that helps employees and managers track personal and career development goals in real-time. The app is used by a projected 200,000-300,000 associates.  
+## Virtual Development Blueprint
+![Virtual Development Blueprint](assets/images/virtual-blueprint.png)
+**Role:** Developer  
 **Tech Stack:** React, Node.js, Vitest, WCAG  
-**Notable Achievements:** Optimized data retrieval efficiency and improved accessibility compliance.
+**Notable Achievements:** Optimized data retrieval efficiency, enhanced accessibility compliance, reduced load times.  
+Developed a web application for The Home Depot to help employees and managers track personal and career development goals.
 
-[View Project](https://github.com/yoonbenjamin)
+[View Project on GitHub](https://github.com/yoonbenjamin)
 
 ---
 
-## 2. HP MRI Web Application
-**Description:** Developed an advanced web platform to visualize and analyze MRI data at the Perelman School of Medicine.  
+## HP MRI Web Application
+![HP MRI Web Application](assets/images/hp-mri.png)
+**Role:** Full-Stack Developer  
 **Tech Stack:** React, Flask (Python), AWS  
-**Notable Achievements:** Enhanced real-time data visualization and facilitated collaboration between research teams.
+**Notable Achievements:** Improved data visualization efficiency and implemented interactive features for real-time adjustments.  
+Built a platform to enhance visualization and analysis of MRI data.
 
-[View Project](https://github.com/yoonbenjamin/hp-mri-web-application-yoonbenjamin)
+[View Project on GitHub](https://github.com/yoonbenjamin/hp-mri-web-application-yoonbenjamin)
 
 ---
 
-## 3. Credit Card Fraud Detection
-**Description:** Built a predictive model to identify fraudulent transactions using machine learning techniques.  
+## Credit Card Fraud Detection
+![Credit Card Fraud Detection](assets/images/credit-fraud.png)
+**Role:** Machine Learning Developer  
 **Tech Stack:** Python, Pandas, Scikit-Learn  
-**Notable Achievements:** Achieved high accuracy with a Decision Tree model, significantly improving fraud detection rates.
+**Notable Achievements:** Achieved high accuracy using a Decision Tree model and improved fraud detection methods for financial institutions.  
+Designed a predictive model to identify fraudulent transactions.
 
-[View Project](https://github.com/yoonbenjamin/credit-card-fraud-prediction-model)
+[View Project on GitHub](https://github.com/yoonbenjamin/credit-card-fraud-prediction-model)

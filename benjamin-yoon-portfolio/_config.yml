@@ -1,13 +1,37 @@
 # Site settings
 title: "Benjamin Yoon's Portfolio"
 email: yoonb2002@gmail.com
-description: "A portfolio showcasing the work and skills of Benjamin Yoon, a software developer specializing in full-stack development, machine learning, and cloud computing."
-baseurl: "" # the subpath of your site, leave empty for root
-url: "https://yourusername.github.io" # Replace with your GitHub Pages URL
-twitter_username: benyoon
+description: "Benjamin Yoon's professional portfolio, showcasing full-stack development, machine learning projects, and more."
+baseurl: ""
+url: "https://github.com/yoonbenjamin.github.io"
+
+# Social media links
+twitter_username: your_twitter_handle
 github_username: yoonbenjamin
+
+# Navigation links
+header:
+  nav:
+    - title: "Home"
+      url: "/"
+    - title: "Portfolio"
+      url: "/portfolio/"
+    - title: "About"
+      url: "/about/"
+    - title: "Contact"
+      url: "/contact/"
+    - title: "Blog"
+      url: "/blog/"
 
 # Build settings
 theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
+
+footer:
+links:
+  - title: "GitHub"
+    url: "https://github.com/yoonbenjamin"
+  - title: "LinkedIn"
+    url: "https://www.linkedin.com/in/benyoon/"
+

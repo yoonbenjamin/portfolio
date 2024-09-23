@@ -1,17 +1,88 @@
+/* main.css */
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/air";
+/* Light theme */
 @import "minimal-mistakes";
 
-// Custom overrides
+/* Main Color Palette */
 :root {
   --primary-color: #00aaff;
-  --body-font-family: "Arial", sans-serif;
-  --heading-font-family: "Helvetica", sans-serif;
+  --accent-color: #00cc99;
+  --text-color: #333;
+  --background-color: #f9f9f9;
+  --font-family-base: "Helvetica", sans-serif;
+  --font-family-heading: "Arial", sans-serif;
 }
 
+/* General styles */
 body {
-  font-family: var(--body-font-family);
+  font-family: "Helvetica", sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
 }
 
-h1, h2, h3 {
-  font-family: var(--heading-font-family);
+/* Navigation */
+nav a {
   color: var(--primary-color);
+}
+
+nav a:hover {
+  color: var(--accent-color);
+  text-decoration: underline;
+}
+
+/* Buttons */
+button,
+a.button {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 0.75rem 1.25rem;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+button:hover,
+a.button:hover {
+  background-color: var(--accent-color);
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-family-heading);
+  color: var(--primary-color);
+}
+
+a {
+  color: var(--accent-color);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Navigation Styling */
+.masthead__menu {
+  background-color: #f8f9fa;
+  /* Light background color for the navigation bar */
+  padding: 1rem;
+}
+
+.masthead__menu a {
+  text-decoration: none;
+  color: #007bff;
+  /* Link color */
+  font-weight: bold;
+  margin-right: 1.5rem;
+}
+
+.masthead__menu a:hover {
+  color: #0056b3;
+  /* Hover color */
+}
+
+.masthead__menu-item {
+  display: inline-block;
 }
