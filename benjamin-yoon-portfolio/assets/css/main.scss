@@ -1,3 +1,6 @@
+---
+---
+
 /* main.css */
 @charset "utf-8";
 
@@ -50,12 +53,9 @@ h3 {
 
 a {
   color: #00aaff;
-  transition: color 0.3s ease;
 }
 
 a:hover {
-  color: #0088cc;
-  /* Slightly darker on hover */
   text-decoration: underline;
 }
 
@@ -95,20 +95,16 @@ nav a:hover {
 
 /* Hero section styling */
 .hero {
-  background-image: url('/assets/images/background-image.jpg');
   background-size: cover;
-  background-position: center center;
-  /* Ensures the image remains centered */
-  background-attachment: fixed;
-  /* Adds a subtle parallax effect */
-  padding: 6rem 2rem;
-  /* Increased padding for better spacing */
+  background-position: center;
+  padding: 5rem 2rem;
+  text-align: center;
   color: white;
 }
 
 .hero__content {
-  background-color: rgba(0, 0, 0, 0.6);
-  /* Darken the overlay slightly */
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Adds a subtle overlay on the background image */
   padding: 2rem;
   border-radius: 5px;
 }
@@ -121,8 +117,6 @@ nav a:hover {
 .hero p {
   font-size: 1.25rem;
   margin-bottom: 1.5rem;
-  line-height: 1.8;
-  /* Slightly increase line spacing for better readability */
 }
 
 .hero .button {
@@ -142,11 +136,8 @@ nav a:hover {
 .page__footer {
   background-color: #333;
   color: white;
-  padding: 2.5rem 1rem;
-  /* Slightly more padding for better spacing */
+  padding: 2rem;
   text-align: center;
-  font-size: 0.9rem;
-  /* Decrease font size slightly */
 }
 
 .page__footer a {
@@ -161,16 +152,11 @@ nav a:hover {
 .page__footer ul {
   list-style-type: none;
   padding: 0;
-  text-align: center;
-  /* Center-aligns footer links */
 }
 
 .page__footer li {
-  display: inline-block;
-  margin-right: 1.5rem;
-  /* Added more spacing between footer links */
-  margin: 0 1rem;
-  /* Provides better spacing between links */
+  display: inline;
+  margin-right: 1rem;
 }
 
 /* Button styling */
@@ -193,16 +179,6 @@ a.button:hover {
   box-shadow: 0 6px 8px rgba(245, 73, 73, 0.15);
 }
 
-.button {
-  transition: transform 0.2s ease-in-out;
-  /* Smooth scale effect */
-}
-
-.button:hover {
-  transform: scale(1.05);
-  /* Slightly enlarges button on hover */
-}
-
 /* Full-width sections */
 .full-width {
   width: 100%;
@@ -218,27 +194,15 @@ a.button:hover {
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .hero {
-    padding: 3rem 1.5rem;
-    /* Adjust padding for smaller screens */
+    padding: 3rem 1rem;
   }
 
   .hero h1 {
     font-size: 2rem;
-    /* Adjusted for smaller screens */
   }
 
   .hero p {
-    font-size: 1.1rem;
-    /* Maintain readability */
-  }
-
-  .project-section {
-    padding: 1rem;
-  }
-
-  h3 {
-    font-size: 1.3rem;
-    /* Adjust project titles on mobile */
+    font-size: 1rem;
   }
 
   .masthead__menu ul {
@@ -252,20 +216,112 @@ a.button:hover {
   }
 }
 
-.call-to-action {
-  background-color: #f0f8ff;
-  /* Light blue background */
-  padding: 2rem;
-  margin-top: 3rem;
-  border-radius: 5px;
+/* Project Section Styles */
+.project {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 2rem;
 }
 
-.call-to-action a {
-  display: inline-block;
+.project-image {
+  max-width: 200px;
+  width: 100%;
+  height: auto;
+  /* Ensure aspect ratio is maintained */
+  margin-right: 2rem;
+  border-radius: 8px;
+  /* Slight rounding of corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Subtle shadow for 3D effect */
+  object-fit: cover;
+  /* Ensures image scales properly without distortion */
+}
+
+.project-details {
+  flex-grow: 1;
+}
+
+.project-details h2 {
+  font-size: 1.8rem;
   margin-bottom: 0.5rem;
-  color: #00aaff;
 }
 
-.call-to-action a:hover {
-  color: #0088cc;
+.project-details p {
+  margin-bottom: 0.5rem;
+}
+
+.project .button {
+  background-color: #00aaff;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project .button:hover {
+  background-color: #0088cc;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .project {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .project-image {
+    margin-bottom: 1.5rem;
+    max-width: 100%;
+    /* Ensure images resize on smaller screens */
+  }
+
+  .project-details {
+    margin-bottom: 2rem;
+  }
+}
+
+.project-details h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.project .button {
+  background-color: #00aaff;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project .button:hover {
+  background-color: #0088cc;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project {
+  margin-bottom: 2rem;
+}
+
+.project-image {
+  max-width: 150px;
+  margin-right: 1.5rem;
+}
+
+.project-details p {
+  margin-bottom: 0.4rem;
+}
+
+.project-image {
+  max-width: 200px;
+  margin-right: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
 }

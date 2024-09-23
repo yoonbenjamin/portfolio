@@ -14,7 +14,7 @@ title: "Benjamin Yoon | Software Developer"
 ## Featured Projects
 
 ### 1. Virtual Development Blueprint
-**Tech Stack:** <i class="fab fa-react"></i> React, <i class="fab fa-node-js"></i> Node.js, Vitest, WCAG  
+**Tech Stack:** React, Node.js, Vitest, WCAG  
 Developed a web application for The Home Depot to help employees and managers track personal and career development goals.
 
 [Learn More](portfolio.html#virtual-development-blueprint)
@@ -37,8 +37,6 @@ Designed a predictive model to identify fraudulent transactions for financial in
 
 ## Call to Action
 
-<div class="call-to-action">
-  <a href="/portfolio/">View My Full Portfolio</a><br />
-  <a href="https://www.linkedin.com/in/benyoon/">Connect with Me on LinkedIn</a><br />
-  <a href="/assets/resume.pdf">Download My Resume</a>
-</div>
+[View My Full Portfolio](/portfolio/)  
+[Connect with Me on LinkedIn](https://www.linkedin.com/in/benyoon/)  
+[Download My Resume](/assets/resume.pdf)
