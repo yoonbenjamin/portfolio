@@ -50,9 +50,12 @@ h3 {
 
 a {
   color: #00aaff;
+  transition: color 0.3s ease;
 }
 
 a:hover {
+  color: #0088cc;
+  /* Slightly darker on hover */
   text-decoration: underline;
 }
 
@@ -92,16 +95,20 @@ nav a:hover {
 
 /* Hero section styling */
 .hero {
+  background-image: url('/assets/images/background-image.jpg');
   background-size: cover;
-  background-position: center;
-  padding: 5rem 2rem;
-  text-align: center;
+  background-position: center center;
+  /* Ensures the image remains centered */
+  background-attachment: fixed;
+  /* Adds a subtle parallax effect */
+  padding: 6rem 2rem;
+  /* Increased padding for better spacing */
   color: white;
 }
 
 .hero__content {
-  background-color: rgba(0, 0, 0, 0.5);
-  /* Adds a subtle overlay on the background image */
+  background-color: rgba(0, 0, 0, 0.6);
+  /* Darken the overlay slightly */
   padding: 2rem;
   border-radius: 5px;
 }
@@ -133,8 +140,11 @@ nav a:hover {
 .page__footer {
   background-color: #333;
   color: white;
-  padding: 2rem;
+  padding: 2.5rem 1rem;
+  /* Slightly more padding for better spacing */
   text-align: center;
+  font-size: 0.9rem;
+  /* Decrease font size slightly */
 }
 
 .page__footer a {
@@ -152,8 +162,9 @@ nav a:hover {
 }
 
 .page__footer li {
-  display: inline;
-  margin-right: 1rem;
+  display: inline-block;
+  margin-right: 1.5rem;
+  /* Added more spacing between footer links */
 }
 
 /* Button styling */
@@ -191,7 +202,8 @@ a.button:hover {
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .hero {
-    padding: 3rem 1rem;
+    padding: 3rem 1.5rem;
+    /* Adjust padding for smaller screens */
   }
 
   .hero h1 {
@@ -200,6 +212,16 @@ a.button:hover {
 
   .hero p {
     font-size: 1rem;
+  }
+
+  .project-section {
+    padding: 1rem;
+    /* Ensure project sections are properly spaced */
+  }
+
+  /* Project titles on smaller screens */
+  h3 {
+    font-size: 1.2rem;
   }
 
   .masthead__menu ul {
@@ -211,4 +233,22 @@ a.button:hover {
     display: block;
     margin: 0.5rem 0;
   }
+}
+
+.call-to-action {
+  background-color: #f0f8ff;
+  /* Light blue background */
+  padding: 2rem;
+  margin-top: 3rem;
+  border-radius: 5px;
+}
+
+.call-to-action a {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  color: #00aaff;
+}
+
+.call-to-action a:hover {
+  color: #0088cc;
 }
