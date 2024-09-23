@@ -37,8 +37,13 @@ p {
   margin-bottom: 1.5rem;
 }
 
+h2 {
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
 hr {
-  margin: 2rem 0;
+  margin: 3rem 0;
 }
 
 /* Project section improvements */
@@ -71,9 +76,32 @@ nav a:hover {
 
 /* Navigation Styling */
 .masthead__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #f8f9fa;
-  /* Light background color for the navigation bar */
   padding: 1rem;
+}
+
+.masthead__menu ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.masthead__menu-item {
+  margin-right: 1.5rem;
+}
+
+.masthead__menu-item a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.masthead__menu-item a:hover {
+  color: #0056b3;
 }
 
 .masthead__menu a {
@@ -89,10 +117,6 @@ nav a:hover {
   /* Hover color */
 }
 
-.masthead__menu-item {
-  display: inline-block;
-}
-
 /* Hero section styling */
 .hero {
   background-size: cover;
@@ -100,32 +124,56 @@ nav a:hover {
   padding: 5rem 2rem;
   text-align: center;
   color: white;
+  max-width: 100%;
+  position: relative;
+  overflow: hidden;
+
+  @media (min-width: 1200px) {
+    padding: 8rem 2rem;
+  }
+
+  @media (max-width: 768px) {
+    padding: 2rem 1rem;
+  }
 }
 
 .hero__content {
-  background-color: rgba(0, 0, 0, 0.5);
-  /* Adds a subtle overlay on the background image */
-  padding: 2rem;
+  max-width: 1400px;
+  /* Make it wider on larger screens */
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 3rem 2rem;
   border-radius: 5px;
+
+  @media (min-width: 1200px) {
+    max-width: 1600px;
+    /* Allow more width for big screens */
+  }
 }
 
 .hero h1 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
+  font-size: 3rem;
+  /* Larger font size to make it more prominent */
+  margin-bottom: 1.5rem;
+  font-weight: bold;
 }
 
 .hero p {
-  font-size: 1.25rem;
-  margin-bottom: 1.5rem;
+  font-size: 1.35rem;
+  font-weight: 300;
+  /* Lighter font weight for a smoother look */
+  margin-bottom: 2rem;
 }
 
 .hero .button {
   background-color: #00aaff;
   color: white;
-  padding: 0.75rem 1.5rem;
+  padding: 1rem 2rem;
   border-radius: 5px;
   text-decoration: none;
   font-weight: bold;
+  font-size: 1.25rem;
+  /* Increased font size */
 }
 
 .hero .button:hover {
@@ -136,8 +184,29 @@ nav a:hover {
 .page__footer {
   background-color: #333;
   color: white;
-  padding: 2rem;
+  padding: 3rem 2rem;
   text-align: center;
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  li {
+    display: inline-block;
+    margin-right: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  li a {
+    color: #00aaff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  li a:hover {
+    color: #0088cc;
+  }
 }
 
 .page__footer a {
@@ -147,16 +216,6 @@ nav a:hover {
 
 .page__footer a:hover {
   text-decoration: underline;
-}
-
-.page__footer ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.page__footer li {
-  display: inline;
-  margin-right: 1rem;
 }
 
 /* Button styling */
@@ -193,16 +252,16 @@ a.button:hover {
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
-  .hero {
-    padding: 3rem 1rem;
-  }
-
   .hero h1 {
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
 
   .hero p {
-    font-size: 1rem;
+    font-size: 1.1rem;
+  }
+
+  .hero .button {
+    font-size: 1.1rem;
   }
 
   .masthead__menu ul {
@@ -216,112 +275,82 @@ a.button:hover {
   }
 }
 
-/* Project Section Styles */
-.project {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  margin-bottom: 2.5rem;
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 2rem;
-}
-
-.project-image {
-  max-width: 200px;
-  width: 100%;
-  height: auto;
-  /* Ensure aspect ratio is maintained */
-  margin-right: 2rem;
-  border-radius: 8px;
-  /* Slight rounding of corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  /* Subtle shadow for 3D effect */
-  object-fit: cover;
-  /* Ensures image scales properly without distortion */
-}
-
-.project-details {
-  flex-grow: 1;
-}
-
-.project-details h2 {
-  font-size: 1.8rem;
-  margin-bottom: 0.5rem;
-}
-
-.project-details p {
-  margin-bottom: 0.5rem;
-}
-
-.project .button {
-  background-color: #00aaff;
-  color: white;
-  padding: 0.75rem 1.5rem;
-  border-radius: 5px;
-  text-decoration: none;
-  font-weight: bold;
-  transition: background-color 0.3s ease, box-shadow 0.3s ease;
-}
-
-.project .button:hover {
-  background-color: #0088cc;
+/* Project card styling */
+.project-card {
+  background-color: white;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-  .project {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .project-image {
-    margin-bottom: 1.5rem;
-    max-width: 100%;
-    /* Ensure images resize on smaller screens */
-  }
-
-  .project-details {
-    margin-bottom: 2rem;
-  }
-}
-
-.project-details h2 {
-  font-size: 1.8rem;
-  margin-bottom: 0.5rem;
-}
-
-.project .button {
-  background-color: #00aaff;
-  color: white;
-  padding: 0.75rem 1.5rem;
-  border-radius: 5px;
-  text-decoration: none;
-  font-weight: bold;
-  transition: background-color 0.3s ease, box-shadow 0.3s ease;
-}
-
-.project .button:hover {
-  background-color: #0088cc;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.project {
+  padding: 2rem;
   margin-bottom: 2rem;
+  border-radius: 8px;
 }
 
-.project-image {
-  max-width: 150px;
-  margin-right: 1.5rem;
+.project-card h3 {
+  margin-top: 0;
 }
 
-.project-details p {
-  margin-bottom: 0.4rem;
+.project-card p {
+  margin-bottom: 1.5rem;
 }
 
-.project-image {
-  max-width: 200px;
-  margin-right: 2rem;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 5px;
+/* Call to Action styling */
+.call-to-action {
+  background-color: #f0f4f8;
+  padding: 3rem;
+  margin: 2.5rem 0;
+  text-align: center;
+
+  a {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #00aaff;
+    margin-right: 1.5rem;
+  }
+
+  a:hover {
+    color: #0088cc;
+  }
+
+  @media (max-width: 768px) {
+    a {
+      display: block;
+      margin: 1rem 0;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero h1 {
+    font-size: 3.5rem;
+    /* Larger font for big screens */
+  }
+
+  .hero p {
+    font-size: 1.5rem;
+  }
+
+  .hero .button {
+    font-size: 1.25rem;
+    padding: 1rem 2rem;
+  }
+}
+
+/* Increase general section spacing */
+section {
+  padding: 4rem 2rem;
+}
+
+.project-cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+    /* Two cards side by side for medium screens */
+  }
+
+  @media (min-width: 1200px) {
+    grid-template-columns: repeat(3, 1fr);
+    /* Three cards side by side for large screens */
+  }
 }

@@ -13,30 +13,33 @@ title: "Benjamin Yoon | Software Developer"
 
 ## Featured Projects
 
-### 1. Virtual Development Blueprint
-**Tech Stack:** React, Node.js, Vitest, WCAG  
-Developed a web application for The Home Depot to help employees and managers track personal and career development goals.
+<div class="project-cards">
+  <div class="project-card">
+    <h3>1. Virtual Development Blueprint</h3>
+    <p><strong>Tech Stack:</strong> React, Node.js, Vitest, WCAG</p>
+    <p>Developed a web application for The Home Depot to help employees and managers track personal and career development goals.</p>
+    <a href="portfolio.html#virtual-development-blueprint">Learn More</a>
+  </div>
 
-[Learn More](portfolio.html#virtual-development-blueprint)
+  <div class="project-card">
+    <h3>2. HP MRI Web Application</h3>
+    <p><strong>Tech Stack:</strong> React, Flask (Python), AWS</p>
+    <p>Built a platform to enhance visualization and analysis of MRI data at the Perelman School of Medicine.</p>
+    <a href="portfolio.html#hp-mri-web-application">Learn More</a>
+  </div>
 
----
-
-### 2. HP MRI Web Application
-**Tech Stack:** React, Flask (Python), AWS  
-Built a platform to enhance visualization and analysis of MRI data at the Perelman School of Medicine.
-
-[Learn More](portfolio.html#hp-mri-web-application)
-
----
-
-### 3. Credit Card Fraud Detection
-**Tech Stack:** Python, Scikit-Learn, Pandas  
-Designed a predictive model to identify fraudulent transactions for financial institutions.
-
-[Learn More](portfolio.html#credit-card-fraud-detection)
+  <div class="project-card">
+    <h3>3. Credit Card Fraud Detection</h3>
+    <p><strong>Tech Stack:</strong> Python, Scikit-Learn, Pandas</p>
+    <p>Designed a predictive model to identify fraudulent transactions for financial institutions.</p>
+    <a href="portfolio.html#credit-card-fraud-detection">Learn More</a>
+  </div>
+</div>
 
 ## Call to Action
 
-[View My Full Portfolio](/portfolio/)  
-[Connect with Me on LinkedIn](https://www.linkedin.com/in/benyoon/)  
-[Download My Resume](/assets/resume.pdf)
+<div class="call-to-action">
+  <a href="/portfolio/">View My Full Portfolio</a><br />
+  <a href="https://www.linkedin.com/in/benyoon/">Connect with Me on LinkedIn</a><br />
+  <a href="/assets/resume.pdf">Download My Resume</a>
+</div>
