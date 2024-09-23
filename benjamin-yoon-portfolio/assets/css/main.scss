@@ -121,6 +121,8 @@ nav a:hover {
 .hero p {
   font-size: 1.25rem;
   margin-bottom: 1.5rem;
+  line-height: 1.8;
+  /* Slightly increase line spacing for better readability */
 }
 
 .hero .button {
@@ -159,12 +161,16 @@ nav a:hover {
 .page__footer ul {
   list-style-type: none;
   padding: 0;
+  text-align: center;
+  /* Center-aligns footer links */
 }
 
 .page__footer li {
   display: inline-block;
   margin-right: 1.5rem;
   /* Added more spacing between footer links */
+  margin: 0 1rem;
+  /* Provides better spacing between links */
 }
 
 /* Button styling */
@@ -185,6 +191,16 @@ button:hover,
 a.button:hover {
   background-color: #0088cc;
   box-shadow: 0 6px 8px rgba(245, 73, 73, 0.15);
+}
+
+.button {
+  transition: transform 0.2s ease-in-out;
+  /* Smooth scale effect */
+}
+
+.button:hover {
+  transform: scale(1.05);
+  /* Slightly enlarges button on hover */
 }
 
 /* Full-width sections */
@@ -208,20 +224,21 @@ a.button:hover {
 
   .hero h1 {
     font-size: 2rem;
+    /* Adjusted for smaller screens */
   }
 
   .hero p {
-    font-size: 1rem;
+    font-size: 1.1rem;
+    /* Maintain readability */
   }
 
   .project-section {
     padding: 1rem;
-    /* Ensure project sections are properly spaced */
   }
 
-  /* Project titles on smaller screens */
   h3 {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+    /* Adjust project titles on mobile */
   }
 
   .masthead__menu ul {
