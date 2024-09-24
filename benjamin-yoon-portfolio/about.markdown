@@ -78,9 +78,28 @@ As a member of **Penn VIPS (Volunteers in Public Service)**, I spearheaded sever
 ## Education
 
 **University of Pennsylvania**  
-B.S.E. in Computer Science with a focus on Artificial Intelligence  
-**Expected Graduation**: 2025  
-**Relevant Coursework**: Algorithms, Machine Learning, Full-Stack Development, Data Structures
+**Bachelor of Science in Engineering (B.S.E.)** in Computer Science
+**Concentration**: Artificial Intelligence
+**Minor**: Electrical Engineering
+**Expected Graduation**: May 2025  
+
+### Relevant Coursework: 
+- Algorithms
+- Machine Learning
+- Data Structures
+- Operating Systems
+- Object-Oriented Programming
+- Web Development
+- Database Management
+- Software Engineering
+- Computer Networks
+- Artificial Intelligence
+
+### Activities and Societies:
+- **Kappa Sigma Fraternity**: Vice President, Apparel Chair, Academic Chair
+- **Perelman School of Medicine PIGI Lab**: Software Developer (Student Researcher)
+- **The Daily Pennsylvanian**: News Editor (Editorial)
+- **Penn Aerospace Club**: Software Developer (Balloon Member)
 
 ## Courses
 
