@@ -9,7 +9,7 @@ permalink: /portfolio/
 <div class="project-grid">
   
   <div class="project-card">
-    <img src="/assets/images/hp-mri.png" alt="HP MRI Web Application" class="project-image">
+    <img src="./assets/images/hp-mri.png" alt="HP MRI Web Application" class="project-image">
     <h3>HP MRI Web Application</h3>
     <p><strong>Role:</strong> Full-Stack Developer</p>
     <p><strong>Tech Stack:</strong> React, Flask (Python), AWS</p>
