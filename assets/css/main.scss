@@ -9,7 +9,7 @@
 // @import "minimal-mistakes";
 // @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 // @import "minimal-mistakes"; // main partials
-//@import "{{ site.remote_theme }}";
+@import "{{ site.remote_theme }}";
 
 /* Main Color Palette */
 :root {
