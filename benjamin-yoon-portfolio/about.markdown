@@ -32,3 +32,34 @@ As a member of **Penn VIPS (Volunteers in Public Service)**, I spearheaded sever
 - <i class="fas fa-chess"></i> **Chess**: It keeps my strategic thinking sharp.
 - <i class="fas fa-cube"></i> **3D Printing**: I enjoy bringing digital creations to life.
 - <i class="fas fa-microchip"></i> **Building Custom PCBs**: I love hands-on electronics projects that let me create custom solutions.
+
+## Work Experience
+
+### Software Developer Intern @ The Home Depot
+**Duration**: Summer 2024  
+**Key Responsibilities**: Developed the Virtual Development Blueprint application to streamline personal and career goal tracking for employees and managers. Optimized data retrieval and enhanced accessibility compliance.
+
+### Research Assistant @ Perelman School of Medicine
+**Duration**: June 2023 - September 2023  
+**Key Responsibilities**: Built an MRI visualization platform, improving data analysis speed by 40%. Utilized Flask, AWS, and React to provide an interactive data visualization experience for researchers.
+
+## Education
+
+**University of Pennsylvania**  
+B.S.E. in Computer Science with a focus on Artificial Intelligence  
+**Expected Graduation**: 2025  
+**Relevant Coursework**: Algorithms, Machine Learning, Full-Stack Development, Data Structures
+
+## Courses
+
+- **Algorithms**: Studied advanced problem-solving techniques such as dynamic programming and graph algorithms.
+- **Machine Learning**: Focused on supervised learning, unsupervised learning, and model optimization techniques.
+- **Full-Stack Web Development**: Built comprehensive web applications using React, Node.js, and cloud services.
+
+## Recommendations
+
+**John Doe, Manager @ The Home Depot**  
+“Benjamin consistently delivered high-quality work, bringing innovative solutions to complex problems. His contributions to the Virtual Development Blueprint project were critical in meeting our goals ahead of schedule.”
+
+**Jane Smith, Research Lead @ Perelman School of Medicine**  
+“Benjamin demonstrated outstanding technical expertise and a keen eye for detail. His work on the MRI visualization platform significantly improved our research process.”
