@@ -23,9 +23,9 @@ I have experience developing scalable applications and collaborating with cross-
 
 <hr class="section-divider">
 
-## Certifications
+<!-- ## Certifications
 - <img src="/assets/images/aws-logo.png" alt="AWS Logo" width="30"> **AWS Certified Solutions Architect**
-- <img src="/assets/images/redhat-logo.png" alt="Red Hat Logo" width="30"> **Red Hat Certified OpenShift Administrator**
+- <img src="/assets/images/redhat-logo.png" alt="Red Hat Logo" width="30"> **Red Hat Certified OpenShift Administrator** -->
 
 <a href="/assets/resume.pdf" class="button">Download My Resume</a>
 
@@ -116,10 +116,10 @@ As a member of **Penn VIPS (Volunteers in Public Service)**, I spearheaded sever
 - **Database Management** (CIS 2400): Designed and optimized database queries using MySQL and MongoDB to improve data retrieval efficiency in scalable applications.
 - **Scalable and Cloud Computing** (NETS 2120): Learned the principles of scalable computing and developed applications leveraging cloud technologies like AWS, GCP, and Azure.
 
-## Recommendations
+<!-- ## Recommendations
 
-**John Doe, Manager @ The Home Depot**  
+**Robert Deckard, Manager @ The Home Depot**  
 “Benjamin consistently delivered high-quality work, bringing innovative solutions to complex problems. His contributions to the Virtual Development Blueprint project were critical in meeting our goals ahead of schedule.”
 
-**Jane Smith, Research Lead @ Perelman School of Medicine**  
-“Benjamin demonstrated outstanding technical expertise and a keen eye for detail. His work on the MRI visualization platform significantly improved our research process.”
+**Alexander "Shurik" Zavriyev, Research Lead @ Perelman School of Medicine**  
+“Benjamin demonstrated outstanding technical expertise and a keen eye for detail. His work on the MRI visualization platform significantly improved our research process.” -->
