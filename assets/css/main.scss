@@ -4,12 +4,9 @@
 /* main.css */
 @charset "utf-8";
 
-// @import "minimal-mistakes/skins/air";
-// /* Light theme */
-// @import "minimal-mistakes";
-// @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-// @import "minimal-mistakes"; // main partials
-@import "{{ site.remote_theme }}";
+@import "minimal-mistakes/skins/air";
+/* Light theme */
+@import "minimal-mistakes";
 
 /* Main Color Palette */
 :root {
