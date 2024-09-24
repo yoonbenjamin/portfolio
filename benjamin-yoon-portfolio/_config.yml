@@ -25,7 +25,6 @@ header:
 
 # Build settings
 theme: minimal-mistakes-jekyll
-minimal_mistakes_skin: "air"
 plugins:
   - jekyll-feed
 
