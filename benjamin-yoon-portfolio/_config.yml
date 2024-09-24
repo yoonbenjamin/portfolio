@@ -24,7 +24,10 @@ header:
       url: "/blog/"
 
 # Build settings
-theme: "mistakes-minimal-jekyll"
+# theme: "minimal-mistakes-jekyll"
+theme                    : "minimal-mistakes-jekyll"
+# remote_theme           : "mmistakes/minimal-mistakes"
+minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 plugins:
   - jekyll-feed
 
@@ -34,8 +37,3 @@ links:
     url: "https://github.com/yoonbenjamin"
   - title: "LinkedIn"
     url: "https://www.linkedin.com/in/benyoon/"
-
-sass:
-  sass_dir: _sass
-  style: compressed
-    
