@@ -1,4 +1,4 @@
-# portfolio
+# Benjamin Yoon's Portfolio
 
 Welcome to my portfolio! This repository contains the code for my personal portfolio website, showcasing my projects, skills, and experience as a software developer. The portfolio is built using modern web technologies to highlight my work in full-stack development, machine learning, and cloud computing.
 
@@ -10,7 +10,7 @@ Welcome to my portfolio! This repository contains the code for my personal portf
 
 ## Live Demo
 You can view the live version of the portfolio at:  
-[https://yoonbenjamin.github.io](https://yoonbenjamin.github.io)
+[https://yoonbenjamin.github.io/portfolio/](https://yoonbenjamin.github.io/portfolio/)
 
 ## Features
 - **Home Page:** Introduction with a hero section, call-to-action buttons, and featured projects.
@@ -34,9 +34,10 @@ You can view the live version of the portfolio at:
 
 ```bash
 /portfolio
-├── /benjamin-yoon-portfolio
-    ├── /_site             # Main pages (Home, Portfolio, About, etc.)
-        ├── /assets        # Images, fonts, etc.
-            ├── /css       # CSS file for styling
-        ├── index.html     # Main entry point
+├── /benjamin-yoon-portfolio # Images, fonts, etc.
+  ├── /assets                # Images, fonts, etc.
+    ├── /css                 # CSS/SCSS files for styling 
+  ├── /portfolio.markdown    # Portfolio page
+  ├── /about.markdown        # About page
+  ├── index.markdown         # Main entry 
 └── README.md              # This file
