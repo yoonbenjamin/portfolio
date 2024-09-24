@@ -6,17 +6,23 @@ permalink: /contact/
 
 # Contact Me
 
-Feel free to reach out for collaborations or questions.
+Feel free to reach out for collaborations or questions through the form below, or connect with me via email or LinkedIn!
 
-- **Email:** [yoonb2002@gmail.com](mailto:yoonb2002@gmail.com)
-- **LinkedIn:** [Connect on LinkedIn](https://www.linkedin.com/in/benyoon/)
-- **GitHub:** [Check out my GitHub](https://github.com/yoonbenjamin)
+<ul class="contact-links">
+  <li><a href="mailto:yoonb2002@gmail.com"><i class="fas fa-envelope"></i> Email</a></li>
+  <li><a href="https://www.linkedin.com/in/benyoon/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+  <li><a href="https://github.com/yoonbenjamin" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
+</ul>
 
-Or fill out the form below:
+<form action="https://formspree.io/your-email" method="POST" class="contact-form">
+  <label for="name">Name</label>
+  <input type="text" id="name" name="name" placeholder="Your Name" required>
 
-<form action="https://formspree.io/your-email" method="POST">
-  <input type="text" name="name" placeholder="Your Name" required>
-  <input type="email" name="email" placeholder="Your Email" required>
-  <textarea name="message" placeholder="Your Message" required></textarea>
-  <button type="submit">Send</button>
+  <label for="email">Email</label>
+  <input type="email" id="email" name="email" placeholder="Your Email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+
+  <label for="message">Message</label>
+  <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+
+  <button type="submit" class="button">Send</button>
 </form>
