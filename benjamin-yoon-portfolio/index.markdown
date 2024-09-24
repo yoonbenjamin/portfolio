@@ -18,21 +18,21 @@ title: "Benjamin Yoon | Software Developer"
     <h3>1. HP MRI Web Application</h3>
     <p><strong>Tech Stack:</strong> React, Flask (Python), AWS</p>
     <p>Developed an advanced platform at the Perelman School of Medicine to enhance visualization and analysis of Hyperpolarized MRI data. The platform enables researchers to manage and interpret complex MRI datasets, reducing analysis time by 35% and improving imaging diagnostics.</p>
-    <a href="portfolio.html#hp-mri-web-application">Learn More</a>
+    <a href="portfolio">Learn More</a>
   </div>
 
   <div class="project-card">
     <h3>2. Credit Card Fraud Detection</h3>
     <p><strong>Tech Stack:</strong> Python, Scikit-Learn, Pandas, Dask</p>
     <p>Built a machine learning model to identify fraudulent transactions for financial institutions. Achieved high accuracy with an ROC-AUC score of 0.98, reducing false positives by 20% and enabling real-time fraud detection across 500,000 transactions.</p>
-    <a href="portfolio.html#credit-card-fraud-detection">Learn More</a>
+    <a href="portfolio">Learn More</a>
   </div>
 
   <div class="project-card">
     <h3>3. Social Media Application</h3>
     <p><strong>Tech Stack:</strong> Node.js, React, MySQL, AWS</p>
     <p>Developed a full-stack social media platform featuring real-time updates, user interactions, and secure authentication. Enabled dynamic content creation with like and comment functionality, supporting high user engagement.</p>
-    <a href="portfolio.html#social-media-application">Learn More</a>
+    <a href="portfolio">Learn More</a>
   </div>
 </div>
 

@@ -14,7 +14,7 @@ permalink: /portfolio/
     <p><strong>Role:</strong> Full-Stack Developer</p>
     <p><strong>Tech Stack:</strong> React, Flask (Python), AWS</p>
     <p>Developed an advanced web-based platform for Hyperpolarized MRI data visualization at the Perelman School of Medicine, reducing analysis time by 35%. Integrated real-time data adjustments, improving research collaboration and diagnostics.</p>
-    <a href="https://github.com/yoonbenjamin/hp-mri-web-application-yoonbenjamin" class="button">View Project on GitHub</a>
+    <a href="https://github.com/MEDCAP/hp-mri-web-app" class="button">View Project on GitHub</a>
   </div>
   
   <div class="project-card">
@@ -32,7 +32,7 @@ permalink: /portfolio/
     <p><strong>Role:</strong> Full-Stack Developer</p>
     <p><strong>Tech Stack:</strong> Node.js, MySQL, React, AWS</p>
     <p>Developed a dynamic social media platform with real-time user interactions, secure authentication, and post creation functionality. Enabled dynamic content rendering with comments and likes, improving user engagement and scalability.</p>
-    <a href="https://github.com/yoonbenjamin/social-media-application" class="button">View Project on GitHub</a>
+    <a href="https://github.com/upenn-nets-2120/project-nth-time-s-the-charm" class="button">View Project on GitHub</a>
   </div>
 
   <div class="project-card">
@@ -41,7 +41,7 @@ permalink: /portfolio/
     <p><strong>Role:</strong> System Developer</p>
     <p><strong>Tech Stack:</strong> C, Unix, Docker</p>
     <p>Developed PennOS, a UNIX-like operating system implementing a priority scheduler and FAT file system. The system managed efficient thread handling, file operations, and user interaction with a shell interface.</p>
-    <a href="https://github.com/yoonbenjamin/pennos" class="button">View Project on GitHub</a>
+    <a href="https://github.com/CIS548/23fa-cis3800-pennos-20" class="button">View Project on GitHub</a>
   </div>
   
   <div class="project-card">
@@ -50,7 +50,7 @@ permalink: /portfolio/
     <p><strong>Role:</strong> Developer</p>
     <p><strong>Tech Stack:</strong> React, Node.js, Vitest, WCAG</p>
     <p>Developed the Virtual Development Blueprint application for The Home Depot, enabling employees and managers to track career goals in real-time. Improved accessibility compliance and optimized data retrieval efficiency for 200,000+ users.</p>
-    <a href="https://github.com/yoonbenjamin/virtual-development-blueprint" class="button">View Project on GitHub</a>
+    <!-- <a href="https://github.com/yoonbenjamin/virtual-development-blueprint" class="button">View Project on GitHub</a> -->
   </div>
 
 </div>

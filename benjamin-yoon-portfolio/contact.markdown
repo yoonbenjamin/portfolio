@@ -16,7 +16,7 @@ Feel free to reach out for collaborations or questions through the form below, o
   <li><i class="fas fa-map-marker-alt"></i> Location: Brewster, NY</li>
 </ul>
 
-<form action="https://formspree.io/your-email" method="POST" class="contact-form">
+<form action="https://formspree.io/f/manwgvba" method="POST" class="contact-form">
   <label for="name">Name</label>
   <input type="text" id="name" name="name" placeholder="Your Name" required>
 

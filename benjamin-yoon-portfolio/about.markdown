@@ -45,6 +45,7 @@ As a member of **Penn VIPS (Volunteers in Public Service)**, I spearheaded sever
 
 ### Software Engineer Intern @ The Home Depot
 **Duration**: May 2024 - Jul 2024 | Atlanta, United States (Hybrid)
+
 **Key Responsibilities**:
 - Enhanced the **Development Blueprint** app, focusing on direct report views, project listings, and profile management.
 - Implemented advanced search and filtering, improving data retrieval efficiency by 25%.
@@ -52,6 +53,7 @@ As a member of **Penn VIPS (Volunteers in Public Service)**, I spearheaded sever
 - Improved accessibility with ARIA attributes and ensured WCAG compliance.
 - Integrated Slack notifications for real-time updates, streamlining communication across teams.
 - Delivered features ahead of schedule, supporting early deployment.
+
 **Technologies Used**:
 - <i class="fab fa-react"></i> React, <i class="fab fa-node-js"></i> Node.js, Vitest, WCAG, Slack API, HTML, CSS, <i class="fab fa-js-square"></i> JavaScript
 
@@ -59,12 +61,14 @@ As a member of **Penn VIPS (Volunteers in Public Service)**, I spearheaded sever
 
 ### Software Developer (Student Researcher) @ Perelman School of Medicine, University of Pennsylvania
 **Duration**: Apr 2023 - Present | Philadelphia, United States (On-site)
+
 **Key Responsibilities**:
 - Developed a **GUI Web Application** using React and Flask for MRI data visualization, reducing analysis time by 35%.
 - Collaborated on deploying the application via AWS for public access, facilitating data sharing and research collaboration.
 - Published research on MRI coil construction, advancing hyperpolarization imaging strategies.
 - Designed custom **PCBs** for MRI coils using EAGLE software, improving imaging accuracy for research.
 - Led a team to deploy the application for production use, enhancing collaborative research between labs.
+
 **Technologies Used:**
 - <i class="fab fa-python"></i> Python, <i class="fab fa-react"></i> React, Flask, <i class="fab fa-aws"></i> AWS, REST APIs, EAGLE software, 3D printing
 
@@ -72,10 +76,12 @@ As a member of **Penn VIPS (Volunteers in Public Service)**, I spearheaded sever
 
 ### Software Developer (Balloon Member) @ Penn Aerospace Club
 **Duration**: Aug 2023 - May 2024 | Philadelphia, United States (On-site)
+
 **Key Responsibilities**:
 - Co-developed the **Balloon Team's website** using Node.js and Vue.js, increasing web traffic by 40%.
 - Developed and optimized tracking systems for high-altitude balloon crafts using RockBLOCK and embedded programming, ensuring reliable communication during missions.
 - Improved online presence and user engagement, contributing to the success of the team's operations.
+
 **Technologies Used:**
 - C++, <i class="fab fa-node-js"></i> Node.js, Vue.js, RockBLOCK, Embedded Systems
 
@@ -83,8 +89,11 @@ As a member of **Penn VIPS (Volunteers in Public Service)**, I spearheaded sever
 
 **University of Pennsylvania**  
 **Bachelor of Science in Engineering (B.S.E.)** in Computer Science
+
 **Concentration**: Artificial Intelligence
+
 **Minor**: Electrical Engineering
+
 **Expected Graduation**: May 2025  
 
 ### Relevant Coursework: 
