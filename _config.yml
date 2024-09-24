@@ -2,8 +2,8 @@
 title: "Benjamin Yoon's Portfolio"
 email: yoonb2002@gmail.com
 description: "Benjamin Yoon's professional portfolio, showcasing full-stack development, machine learning projects, and more."
-baseurl: ""
-url: "https://github.com/yoonbenjamin.github.io"
+baseurl: "/portfolio"
+url: "https://yoonbenjamin.github.io/""
 
 # Social media links
 twitter_username: your_twitter_handle
@@ -24,11 +24,14 @@ header:
       url: "/blog/"
 
 # Build settings
-theme: "minimal-mistakes-jekyll"
+# theme: "minimal-mistakes-jekyll"
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 
 plugins:
   - jekyll-feed
   - github-pages
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
 footer:
 links:
