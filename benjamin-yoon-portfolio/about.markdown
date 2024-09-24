@@ -107,9 +107,14 @@ As a member of **Penn VIPS (Volunteers in Public Service)**, I spearheaded sever
 
 ## Courses
 
-- **Algorithms**: Studied advanced problem-solving techniques such as dynamic programming and graph algorithms.
-- **Machine Learning**: Focused on supervised learning, unsupervised learning, and model optimization techniques.
-- **Full-Stack Web Development**: Built comprehensive web applications using React, Node.js, and cloud services.
+- **Algorithms** (CIS 3200): Studied advanced problem-solving techniques such as divide-and-conquer, dynamic programming, and graph algorithms.
+- **Machine Learning** (CIS 5200): Focused on supervised and unsupervised learning, model optimization techniques, and real-world applications using Scikit-Learn and XGBoost.
+- **Full-Stack Web Development** (CIS 5450): Built comprehensive web applications using React, Node.js, Express, and cloud services like AWS and GCP.
+- **Artificial Intelligence** (CIS 4210): Explored the foundations of AI, including search algorithms, knowledge representation, and machine reasoning.
+- **Big Data Analytics** (CIS 5450): Developed scalable data pipelines and utilized parallel computing with Dask for real-time analytics.
+- **Computer Operating Systems** (CIS 3800): Gained hands-on experience building a UNIX-like operating system, including process scheduling, memory management, and file systems.
+- **Database Management** (CIS 2400): Designed and optimized database queries using MySQL and MongoDB to improve data retrieval efficiency in scalable applications.
+- **Scalable and Cloud Computing** (NETS 2120): Learned the principles of scalable computing and developed applications leveraging cloud technologies like AWS, GCP, and Azure.
 
 ## Recommendations
 
