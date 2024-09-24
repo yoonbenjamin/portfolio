@@ -11,11 +11,15 @@ I'm Benjamin Yoon, a passionate Software Developer with expertise in full-stack 
 I have experience developing scalable applications and collaborating with cross-functional teams to deliver impactful solutions. From optimizing user interfaces and database queries to leading teams in deploying production-ready software, I thrive on solving complex problems and building efficient, innovative solutions.
 
 ## Skills
-- **Programming Languages:** <i class="fab fa-python"></i> Python (Expert), <i class="fab fa-js-square"></i> JavaScript (Proficient), C, C++, Java, Go, MATLAB, Ruby
-- **Frameworks & Tools:** <i class="fab fa-react"></i> React (Proficient), <i class="fab fa-node-js"></i> Node.js, Flask, <i class="fab fa-aws"></i> AWS, MongoDB, MySQL, Docker, Git, Scikit-Learn, XGBoost
-- **Database & Cloud Management:** SQL, <i class="fab fa-aws"></i> AWS, Firebase, GCP, Azure
-- **Machine Learning Skills:** Model Development, Feature Engineering, Hyperparameter Tuning, Deep Learning, A/B Testing
-- **Soft Skills:** <i class="fas fa-comments"></i> Communication, <i class="fas fa-users"></i> Leadership, <i class="fas fa-handshake"></i> Teamwork
+- **Programming Languages:** <i class="fab fa-python"></i> Python (Expert), <i class="fab fa-js-square"></i> JavaScript (Proficient), C++, C, Java, Go, MATLAB, Ruby, Assembly Language
+- **Frameworks & Tools:** <i class="fab fa-react"></i> React (Proficient), <i class="fab fa-node-js"></i> Node.js, Flask, <i class="fab fa-aws"></i> AWS, Vue.js, Docker, Git, Scikit-Learn, XGBoost, NumPy, Pandas, TensorFlow, Express, WebSockets
+- **Database & Cloud:** SQL, <i class="fab fa-aws"></i> AWS, Firebase, GCP, Azure, MySQL, MongoDB
+- **Machine Learning & AI:** Model Development, Feature Engineering, Hyperparameter Tuning, Deep Learning, NLP, A/B Testing
+- **Front-End Development:** HTML, CSS, JavaScript, React, Vue.js, RESTful APIs
+- **Back-End Development:** Node.js, Flask, Express, Java, C, Python, Embedded Systems
+- **Testing & QA:** Vitest, JUnit, GitHub Actions, CI/CD, Unit Testing, Integration Testing
+- **Software Development Skills:** Agile Methodologies, Project Management, Quality Assurance, Data Visualization, Database Optimization
+- **Soft Skills:** <i class="fas fa-users"></i> Leadership, <i class="fas fa-comments"></i> Communication, Team Collaboration, Problem Solving
 
 <hr class="section-divider">
 
@@ -49,7 +53,7 @@ As a member of **Penn VIPS (Volunteers in Public Service)**, I spearheaded sever
 - Integrated Slack notifications for real-time updates, streamlining communication across teams.
 - Delivered features ahead of schedule, supporting early deployment.
 **Technologies Used**:
-- React, Node.js, Vitest, WCAG, Slack API, HTML, CSS, JavaScript
+- <i class="fab fa-react"></i> React, <i class="fab fa-node-js"></i> Node.js, Vitest, WCAG, Slack API, HTML, CSS, <i class="fab fa-js-square"></i> JavaScript
 
 <hr class="section-divider">
 
@@ -62,7 +66,7 @@ As a member of **Penn VIPS (Volunteers in Public Service)**, I spearheaded sever
 - Designed custom **PCBs** for MRI coils using EAGLE software, improving imaging accuracy for research.
 - Led a team to deploy the application for production use, enhancing collaborative research between labs.
 **Technologies Used:**
-- Python, React, Flask, AWS, REST APIs, EAGLE software, 3D printing
+- <i class="fab fa-python"></i> Python, <i class="fab fa-react"></i> React, Flask, <i class="fab fa-aws"></i> AWS, REST APIs, EAGLE software, 3D printing
 
 <hr class="section-divider">
 
@@ -73,7 +77,7 @@ As a member of **Penn VIPS (Volunteers in Public Service)**, I spearheaded sever
 - Developed and optimized tracking systems for high-altitude balloon crafts using RockBLOCK and embedded programming, ensuring reliable communication during missions.
 - Improved online presence and user engagement, contributing to the success of the team's operations.
 **Technologies Used:**
-- C++, Node.js, Vue.js, RockBLOCK, Embedded Systems
+- C++, <i class="fab fa-node-js"></i> Node.js, Vue.js, RockBLOCK, Embedded Systems
 
 ## Education
 
