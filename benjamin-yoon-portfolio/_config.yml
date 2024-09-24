@@ -24,10 +24,9 @@ header:
       url: "/blog/"
 
 # Build settings
-remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+theme: "mistakes-minimal-jekyll"
 plugins:
   - jekyll-feed
-  - jekyll-remote-theme
 
 footer:
 links:
