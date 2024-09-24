@@ -76,7 +76,6 @@ nav a:hover {
 
 /* Navigation Styling */
 .masthead__menu {
-  display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #f8f9fa;
@@ -138,17 +137,11 @@ nav a:hover {
 }
 
 .hero__content {
-  max-width: 1400px;
   /* Make it wider on larger screens */
   margin: 0 auto;
   background-color: rgba(0, 0, 0, 0.6);
   padding: 3rem 2rem;
   border-radius: 5px;
-
-  @media (min-width: 1200px) {
-    max-width: 1600px;
-    /* Allow more width for big screens */
-  }
 }
 
 .hero h1 {
@@ -242,12 +235,6 @@ a.button:hover {
 .full-width {
   width: 100%;
   margin: 0 auto;
-}
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 1rem 2rem;
 }
 
 /* Responsive adjustments */
@@ -447,7 +434,7 @@ section {
   /* Adding more padding around buttons */
   a.button {
     margin-top: 1.5rem;
-    padding: 0.75rem 2rem;
+    padding: 0.75rem 0.75rem;
   }
 }
 
@@ -477,7 +464,7 @@ section {
   color: white;
   padding: 0.6rem 1.2rem;
   /* Reduce padding */
-  font-size: 1rem;
+  font-size: 0.75rem;
   /* Adjust button font size */
   border-radius: 5px;
   text-decoration: none;
@@ -577,12 +564,12 @@ textarea:focus {
   display: flex;
   justify-content: center;
   gap: 30px;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .contact-links a {
   color: #00aaff;
-  font-size: 1.8rem;
+  font-size: 1rem;
   text-decoration: none;
   transition: color 0.3s ease, transform 0.3s ease;
 }

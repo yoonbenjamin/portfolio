@@ -41,6 +41,8 @@ As a member of **Penn VIPS (Volunteers in Public Service)**, I spearheaded sever
 - <i class="fas fa-cube"></i> **3D Printing**: I enjoy bringing digital creations to life.
 - <i class="fas fa-microchip"></i> **Building Custom PCBs**: I love hands-on electronics projects that let me create custom solutions.
 
+<hr class="section-divider">
+
 ## Work Experience
 
 ### Software Engineer Intern @ The Home Depot
@@ -85,6 +87,8 @@ As a member of **Penn VIPS (Volunteers in Public Service)**, I spearheaded sever
 **Technologies Used:**
 - C++, <i class="fab fa-node-js"></i> Node.js, Vue.js, RockBLOCK, Embedded Systems
 
+<hr class="section-divider">
+
 ## Education
 
 **University of Pennsylvania**  
@@ -113,6 +117,8 @@ As a member of **Penn VIPS (Volunteers in Public Service)**, I spearheaded sever
 - **Perelman School of Medicine PIGI Lab**: Software Developer (Student Researcher)
 - **The Daily Pennsylvanian**: News Editor (Editorial)
 - **Penn Aerospace Club**: Software Developer (Balloon Member)
+
+<hr class="section-divider">
 
 ## Courses
 

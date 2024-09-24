@@ -9,10 +9,12 @@ permalink: /contact/
 Feel free to reach out for collaborations or questions through the form below, or connect with me via email or LinkedIn!
 
 <ul class="contact-links">
-  <li><a href="mailto:yoonb2002@gmail.com"><i class="fas fa-envelope"></i> Email</a></li>
   <li><a href="https://www.linkedin.com/in/benyoon/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
   <li><a href="https://github.com/yoonbenjamin" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
+  <li><a href="mailto:yoonb2002@gmail.com"><i class="fas fa-envelope"></i> Email: yoonb2002@gmail.com</a></li>
   <li><a href="tel:+19144136511"><i class="fas fa-phone"></i> Phone: (914) 413-6511</a></li>
+</ul>
+<ul class="contact-links">
   <li><i class="fas fa-map-marker-alt"></i> Location: Brewster, NY</li>
 </ul>
 

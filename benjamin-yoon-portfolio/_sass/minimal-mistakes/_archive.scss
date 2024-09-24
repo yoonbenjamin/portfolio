@@ -8,13 +8,13 @@
 
   @include breakpoint($large) {
     float: inline-end;
-    width: calc(100% - #{$right-sidebar-width-narrow});
-    padding-inline-end: $right-sidebar-width-narrow;
+    // width: calc(100% - #{$right-sidebar-width-narrow});
+    // padding-inline-end: $right-sidebar-width-narrow;
   }
 
   @include breakpoint($x-large) {
-    width: calc(100% - #{$right-sidebar-width});
-    padding-inline-end: $right-sidebar-width;
+    // width: calc(100% - #{$right-sidebar-width});
+    // padding-inline-end: $right-sidebar-width;
   }
 }
 
@@ -38,7 +38,7 @@
   color: $muted-text-color;
   border-bottom: 1px solid $border-color;
 
-  + .list__item .archive__item-title {
+  +.list__item .archive__item-title {
     margin-top: 0.5em;
   }
 }
@@ -56,7 +56,7 @@
     inset: 0;
   }
 
-  a + a {
+  a+a {
     opacity: 0.5;
   }
 }
@@ -73,7 +73,7 @@
   margin-top: 0;
   font-size: $type-size-6;
 
-  & + p {
+  &+p {
     text-indent: 0;
   }
 
@@ -165,7 +165,8 @@
   }
 
   @include breakpoint($medium) {
-    margin-inline: 0; /* override margin*/
+    margin-inline: 0;
+    /* override margin*/
     width: span(3 of 12);
 
     &:nth-child(2n + 1) {
@@ -285,7 +286,8 @@
     inset: 0;
   }
 
-  &--left, &--right {
+  &--left,
+  &--right {
     position: relative;
     margin-inline: 0;
     width: 100%;
@@ -425,7 +427,7 @@
 /* Place inside a single layout */
 
 .layout--single {
-	.feature__wrapper {
-		display: inline-block;
-	}
+  .feature__wrapper {
+    display: inline-block;
+  }
 }
