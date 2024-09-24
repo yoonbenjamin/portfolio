@@ -9,7 +9,7 @@ permalink: /portfolio/
 <div class="project-grid">
   
   <div class="project-card">
-    <img src="assets/images/hp-mri.png" alt="HP MRI Web Application" class="project-image">
+    <img src="{{site.baseurl}}/assets/images/hp-mri.png" alt="HP MRI Web Application" class="project-image">
     <h3>HP MRI Web Application</h3>
     <p><strong>Role:</strong> Full-Stack Developer</p>
     <p><strong>Tech Stack:</strong> React, Flask (Python), AWS</p>
@@ -18,7 +18,7 @@ permalink: /portfolio/
   </div>
   
   <div class="project-card">
-    <img src="./assets/images/credit-fraud.png" alt="Credit Card Fraud Detection" class="project-image">
+    <img src="{{site.baseurl}}/assets/images/credit-fraud.png" alt="Credit Card Fraud Detection" class="project-image">
     <h3>Credit Card Fraud Detection</h3>
     <p><strong>Role:</strong> Machine Learning Developer</p>
     <p><strong>Tech Stack:</strong> Python, Scikit-Learn, Pandas, Dask</p>
@@ -27,7 +27,7 @@ permalink: /portfolio/
   </div>
 
   <div class="project-card">
-    <img src="/assets/images/social-media-app.png" alt="Social Media Application" class="project-image">
+    <img src="{{site.baseurl}}/assets/images/social-media-app.png" alt="Social Media Application" class="project-image">
     <h3>Social Media Application</h3>
     <p><strong>Role:</strong> Full-Stack Developer</p>
     <p><strong>Tech Stack:</strong> Node.js, MySQL, React, AWS</p>
@@ -45,7 +45,7 @@ permalink: /portfolio/
   </div>
   
   <div class="project-card">
-    <img src="assets/images/virtual-blueprint.png" alt="Virtual Development Blueprint" class="project-image">
+    <img src="{{site.baseurl}}/assets/images/virtual-blueprint.png" alt="Virtual Development Blueprint" class="project-image">
     <h3>Virtual Development Blueprint</h3>
     <p><strong>Role:</strong> Developer</p>
     <p><strong>Tech Stack:</strong> React, Node.js, Vitest, WCAG</p>
