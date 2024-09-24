@@ -24,12 +24,11 @@ header:
       url: "/blog/"
 
 # Build settings
-theme: "minima"
+theme: "minimal-mistakes-jekyll"
 
 plugins:
   - jekyll-feed
   - github-pages
-  - jekyll-include-cache
 
 footer:
 links:
