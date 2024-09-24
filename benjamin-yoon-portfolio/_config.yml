@@ -37,3 +37,8 @@ links:
     url: "https://github.com/yoonbenjamin"
   - title: "LinkedIn"
     url: "https://www.linkedin.com/in/benyoon/"
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style

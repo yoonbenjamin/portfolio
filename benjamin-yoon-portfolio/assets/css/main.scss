@@ -7,7 +7,7 @@
 // @import "minimal-mistakes/skins/air";
 // /* Light theme */
 // @import "minimal-mistakes";
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+// @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
 /* Main Color Palette */
