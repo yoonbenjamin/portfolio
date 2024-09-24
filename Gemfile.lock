@@ -269,12 +269,10 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  http_parser.rb (~> 0.6.0)
   jekyll-feed (~> 0.12)
-  minima (~> 2.5)
-  tzinfo (>= 1, < 3)
-  tzinfo-data
-  wdm (~> 0.1)
+  jekyll-include-cache
+  jekyll-seo-tag (~> 2.7)
+  jekyll-sitemap
 
 BUNDLED WITH
    2.3.26
