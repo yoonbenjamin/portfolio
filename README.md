@@ -10,7 +10,7 @@ Welcome to my portfolio! This repository contains the code for my personal portf
 
 ## Live Demo
 You can view the live version of the portfolio at:  
-[https://yoonbenjamin.github.io/portfolio/](https://yoonbenjamin.github.io/portfolio/)
+[https://yoonbenjamin.github.io](https://yoonbenjamin.github.io)
 
 ## Features
 - **Home Page:** Introduction with a hero section, call-to-action buttons, and featured projects.
