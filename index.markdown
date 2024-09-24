@@ -3,7 +3,7 @@ layout: home
 title: "Benjamin Yoon | Software Developer"
 ---
 
-<div class="hero" style="background-image: url('/assets/images/background-image.jpg');">
+<div class="hero" style="background-image: url('assets/images/background-image.jpg');">
   <div class="hero__content">
     <h1>Welcome to My Portfolio</h1>
     <p>Hi, I'm <strong>Benjamin Yoon</strong>, a passionate Software Developer specializing in full-stack development, machine learning, and cloud computing.</p>
@@ -41,5 +41,5 @@ title: "Benjamin Yoon | Software Developer"
 <div class="call-to-action">
   <a href="/portfolio/">View My Full Portfolio</a><br />
   <a href="https://www.linkedin.com/in/benyoon/">Connect with Me on LinkedIn</a><br />
-  <a href="/assets/resume.pdf">Download My Resume</a>
+  <a href="assets/resume.pdf">Download My Resume</a>
 </div>

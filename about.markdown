@@ -27,7 +27,7 @@ I have experience developing scalable applications and collaborating with cross-
 - <img src="/assets/images/aws-logo.png" alt="AWS Logo" width="30"> **AWS Certified Solutions Architect**
 - <img src="/assets/images/redhat-logo.png" alt="Red Hat Logo" width="30"> **Red Hat Certified OpenShift Administrator** -->
 
-<a href="/assets/resume.pdf" class="button">Download My Resume</a>
+<a href="assets/resume.pdf" class="button">Download My Resume</a>
 
 <hr class="section-divider">
 
