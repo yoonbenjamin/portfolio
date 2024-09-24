@@ -39,13 +39,41 @@ As a member of **Penn VIPS (Volunteers in Public Service)**, I spearheaded sever
 
 ## Work Experience
 
-### Software Developer Intern @ The Home Depot
-**Duration**: Summer 2024  
-**Key Responsibilities**: Developed the Virtual Development Blueprint application to streamline personal and career goal tracking for employees and managers. Optimized data retrieval and enhanced accessibility compliance.
+### Software Engineer Intern @ The Home Depot
+**Duration**: May 2024 - Jul 2024 | Atlanta, United States (Hybrid)
+**Key Responsibilities**:
+- Enhanced the **Development Blueprint** app, focusing on direct report views, project listings, and profile management.
+- Implemented advanced search and filtering, improving data retrieval efficiency by 25%.
+- Conducted front-end testing with Vitest, maintaining 29 test suites and reducing bugs by 20%.
+- Improved accessibility with ARIA attributes and ensured WCAG compliance.
+- Integrated Slack notifications for real-time updates, streamlining communication across teams.
+- Delivered features ahead of schedule, supporting early deployment.
+**Technologies Used**:
+- React, Node.js, Vitest, WCAG, Slack API, HTML, CSS, JavaScript
 
-### Research Assistant @ Perelman School of Medicine
-**Duration**: June 2023 - September 2023  
-**Key Responsibilities**: Built an MRI visualization platform, improving data analysis speed by 40%. Utilized Flask, AWS, and React to provide an interactive data visualization experience for researchers.
+<hr class="section-divider">
+
+### Software Developer (Student Researcher) @ Perelman School of Medicine, University of Pennsylvania
+**Duration**: Apr 2023 - Present | Philadelphia, United States (On-site)
+**Key Responsibilities**:
+- Developed a **GUI Web Application** using React and Flask for MRI data visualization, reducing analysis time by 35%.
+- Collaborated on deploying the application via AWS for public access, facilitating data sharing and research collaboration.
+- Published research on MRI coil construction, advancing hyperpolarization imaging strategies.
+- Designed custom **PCBs** for MRI coils using EAGLE software, improving imaging accuracy for research.
+- Led a team to deploy the application for production use, enhancing collaborative research between labs.
+**Technologies Used:**
+- Python, React, Flask, AWS, REST APIs, EAGLE software, 3D printing
+
+<hr class="section-divider">
+
+### Software Developer (Balloon Member) @ Penn Aerospace Club
+**Duration**: Aug 2023 - May 2024 | Philadelphia, United States (On-site)
+**Key Responsibilities**:
+- Co-developed the **Balloon Team's website** using Node.js and Vue.js, increasing web traffic by 40%.
+- Developed and optimized tracking systems for high-altitude balloon crafts using RockBLOCK and embedded programming, ensuring reliable communication during missions.
+- Improved online presence and user engagement, contributing to the success of the team's operations.
+**Technologies Used:**
+- C++, Node.js, Vue.js, RockBLOCK, Embedded Systems
 
 ## Education
 
