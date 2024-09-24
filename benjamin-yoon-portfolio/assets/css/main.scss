@@ -1,4 +1,4 @@
----
+--- 
 ---
 
 /* main.css */
@@ -273,9 +273,10 @@ a.button:hover {
     display: block;
     margin: 0.5rem 0;
   }
-  
+
   .project-card {
-    padding: 1.5rem; /* Reduce padding for mobile */
+    padding: 1.5rem;
+    /* Reduce padding for mobile */
   }
 
   .project-card h3 {
@@ -288,6 +289,24 @@ a.button:hover {
 
   .project-card .button {
     padding: 0.6rem 1.2rem;
+  }
+
+  .about-heading {
+    font-size: 1.8rem;
+  }
+
+  .about-subheading {
+    font-size: 1.3rem;
+  }
+
+  .about-content p {
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+  }
+
+  .button {
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
   }
 }
 
@@ -375,7 +394,8 @@ section {
 .project-grid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 1.5rem; /* Reduced gap for closer alignment */
+  gap: 1.5rem;
+  /* Reduced gap for closer alignment */
   margin-top: 2rem;
 
   @media (min-width: 768px) {
@@ -392,7 +412,8 @@ section {
   background-color: #ffffff;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 2rem; /* Increase padding for content breathing space */
+  padding: 2rem;
+  /* Increase padding for content breathing space */
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 
@@ -404,18 +425,22 @@ section {
 }
 
 .project-card:hover {
-  transform: translateY(-8px); /* More pronounced hover lift */
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* Increase shadow depth */
+  transform: translateY(-8px);
+  /* More pronounced hover lift */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  /* Increase shadow depth */
 }
 
 .project-card h3 {
   margin-top: 1rem;
-  font-size: 1.3rem; /* Slightly smaller font size */
+  font-size: 1.3rem;
+  /* Slightly smaller font size */
   color: #333;
 }
 
 .project-card p {
-  font-size: 0.95rem; /* Reduced font size */
+  font-size: 0.95rem;
+  /* Reduced font size */
   margin-bottom: 1rem;
   color: #666;
 }
@@ -423,8 +448,10 @@ section {
 .project-card .button {
   background-color: #00aaff;
   color: white;
-  padding: 0.6rem 1.2rem; /* Reduce padding */
-  font-size: 1rem; /* Adjust button font size */
+  padding: 0.6rem 1.2rem;
+  /* Reduce padding */
+  font-size: 1rem;
+  /* Adjust button font size */
   border-radius: 5px;
   text-decoration: none;
   font-weight: bold;
@@ -436,8 +463,62 @@ section {
 
 .project-image {
   width: 100%;
-  height: 180px; /* Adjust height to be consistent across images */
-  object-fit: cover; /* Ensures image consistency */
+  height: 180px;
+  /* Adjust height to be consistent across images */
+  object-fit: cover;
+  /* Ensures image consistency */
   border-radius: 5px;
   margin-bottom: 1.5rem;
+}
+
+/* Heading and paragraph styling for better readability */
+.about-heading {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.about-subheading {
+  font-size: 1.5rem;
+  color: #0056b3;
+  margin-top: 2rem;
+}
+
+.about-content p {
+  font-size: 1rem;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+.button {
+  background-color: #00aaff;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+  margin-top: 1.5rem;
+}
+
+.button:hover {
+  background-color: #0088cc;
+  transform: scale(1.05);
+}
+
+/* Hover effect for text blocks */
+.about-content p:hover {
+  color: #333;
+  transition: color 0.3s ease-in-out;
+}
+
+.fab,
+.fas {
+  transition: transform 0.3s ease;
+}
+
+.fab:hover,
+.fas:hover {
+  transform: scale(1.1);
 }
