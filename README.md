@@ -34,7 +34,7 @@ You can view the live version of the portfolio at:
 
 ```bash
 /portfolio
-├── /benjamin-yoon-portfolio # Images, fonts, etc.
+├── /benjamin-yoon-portfolio
   ├── /assets                # Images, fonts, etc.
     ├── /css                 # CSS/SCSS files for styling 
   ├── /portfolio.markdown    # Portfolio page
