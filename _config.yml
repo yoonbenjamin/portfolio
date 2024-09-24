@@ -24,7 +24,7 @@ header:
       url: "/blog/"
 
 # Build settings
-theme: "minimal-mistakes-jekyll"
+theme: "minima"
 
 plugins:
   - jekyll-feed
