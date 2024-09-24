@@ -6,11 +6,15 @@ permalink: /about/
 
 # About Me
 
-I'm Benjamin Yoon, a creative and problem-solving enthusiast with a passion for full-stack development, machine learning, and cloud computing. As a student at the University of Pennsylvania, pursuing a B.S.E. in Computer Science with a focus on Artificial Intelligence, I love turning complex problems into simple, elegant solutions.
+I'm Benjamin Yoon, a passionate Software Developer with expertise in full-stack development, machine learning, and cloud computing. I'm currently pursuing a B.S.E. in Computer Science with a concentration in Artificial Intelligence and a minor in Electrical Engineering at the University of Pennsylvania.
+
+I have experience developing scalable applications and collaborating with cross-functional teams to deliver impactful solutions. From optimizing user interfaces and database queries to leading teams in deploying production-ready software, I thrive on solving complex problems and building efficient, innovative solutions.
 
 ## Skills
-- **Programming Languages:** <i class="fab fa-python"></i> Python (Expert), <i class="fab fa-js-square"></i> JavaScript (Proficient), C, C++, SQL
-- **Frameworks & Tools:** <i class="fab fa-react"></i> React (Proficient), Flask, <i class="fab fa-node-js"></i> Node.js, <i class="fab fa-aws"></i> AWS, Docker
+- **Programming Languages:** <i class="fab fa-python"></i> Python (Expert), <i class="fab fa-js-square"></i> JavaScript (Proficient), C, C++, Java, Go, MATLAB, Ruby
+- **Frameworks & Tools:** <i class="fab fa-react"></i> React (Proficient), <i class="fab fa-node-js"></i> Node.js, Flask, <i class="fab fa-aws"></i> AWS, MongoDB, MySQL, Docker, Git, Scikit-Learn, XGBoost
+- **Database & Cloud Management:** SQL, <i class="fab fa-aws"></i> AWS, Firebase, GCP, Azure
+- **Machine Learning Skills:** Model Development, Feature Engineering, Hyperparameter Tuning, Deep Learning, A/B Testing
 - **Soft Skills:** <i class="fas fa-comments"></i> Communication, <i class="fas fa-users"></i> Leadership, <i class="fas fa-handshake"></i> Teamwork
 
 <hr class="section-divider">

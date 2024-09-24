@@ -15,24 +15,24 @@ title: "Benjamin Yoon | Software Developer"
 
 <div class="project-cards">
   <div class="project-card">
-    <h3>1. Virtual Development Blueprint</h3>
-    <p><strong>Tech Stack:</strong> React, Node.js, Vitest, WCAG</p>
-    <p>Developed a web application for The Home Depot to help employees and managers track personal and career development goals.</p>
-    <a href="portfolio.html#virtual-development-blueprint">Learn More</a>
-  </div>
-
-  <div class="project-card">
-    <h3>2. HP MRI Web Application</h3>
+    <h3>1. HP MRI Web Application</h3>
     <p><strong>Tech Stack:</strong> React, Flask (Python), AWS</p>
-    <p>Built a platform to enhance visualization and analysis of MRI data at the Perelman School of Medicine.</p>
+    <p>Developed an advanced platform at the Perelman School of Medicine to enhance visualization and analysis of Hyperpolarized MRI data. The platform enables researchers to manage and interpret complex MRI datasets, reducing analysis time by 35% and improving imaging diagnostics.</p>
     <a href="portfolio.html#hp-mri-web-application">Learn More</a>
   </div>
 
   <div class="project-card">
-    <h3>3. Credit Card Fraud Detection</h3>
-    <p><strong>Tech Stack:</strong> Python, Scikit-Learn, Pandas</p>
-    <p>Designed a predictive model to identify fraudulent transactions for financial institutions.</p>
+    <h3>2. Credit Card Fraud Detection</h3>
+    <p><strong>Tech Stack:</strong> Python, Scikit-Learn, Pandas, Dask</p>
+    <p>Built a machine learning model to identify fraudulent transactions for financial institutions. Achieved high accuracy with an ROC-AUC score of 0.98, reducing false positives by 20% and enabling real-time fraud detection across 500,000 transactions.</p>
     <a href="portfolio.html#credit-card-fraud-detection">Learn More</a>
+  </div>
+
+  <div class="project-card">
+    <h3>3. Social Media Application</h3>
+    <p><strong>Tech Stack:</strong> Node.js, React, MySQL, AWS</p>
+    <p>Developed a full-stack social media platform featuring real-time updates, user interactions, and secure authentication. Enabled dynamic content creation with like and comment functionality, supporting high user engagement.</p>
+    <a href="portfolio.html#social-media-application">Learn More</a>
   </div>
 </div>
 

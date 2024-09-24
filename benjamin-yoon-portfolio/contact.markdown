@@ -12,6 +12,8 @@ Feel free to reach out for collaborations or questions through the form below, o
   <li><a href="mailto:yoonb2002@gmail.com"><i class="fas fa-envelope"></i> Email</a></li>
   <li><a href="https://www.linkedin.com/in/benyoon/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
   <li><a href="https://github.com/yoonbenjamin" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
+  <li><a href="tel:+19144136511"><i class="fas fa-phone"></i> Phone: (914) 413-6511</a></li>
+  <li><i class="fas fa-map-marker-alt"></i> Location: Brewster, NY</li>
 </ul>
 
 <form action="https://formspree.io/your-email" method="POST" class="contact-form">
