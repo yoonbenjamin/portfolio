@@ -28,6 +28,7 @@ theme: "minimal-mistakes-jekyll"
 
 plugins:
   - jekyll-feed
+  - github-pages
 
 footer:
 links:
