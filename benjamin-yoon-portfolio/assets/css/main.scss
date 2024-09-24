@@ -273,6 +273,22 @@ a.button:hover {
     display: block;
     margin: 0.5rem 0;
   }
+  
+  .project-card {
+    padding: 1.5rem; /* Reduce padding for mobile */
+  }
+
+  .project-card h3 {
+    font-size: 1.2rem;
+  }
+
+  .project-card p {
+    font-size: 0.9rem;
+  }
+
+  .project-card .button {
+    padding: 0.6rem 1.2rem;
+  }
 }
 
 /* Project card styling */
@@ -353,4 +369,75 @@ section {
     grid-template-columns: repeat(3, 1fr);
     /* Three cards side by side for large screens */
   }
+}
+
+/* Project grid layout */
+.project-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem; /* Reduced gap for closer alignment */
+  margin-top: 2rem;
+
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (min-width: 1200px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Project card styling */
+.project-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 2rem; /* Increase padding for content breathing space */
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  /* Adding more padding around buttons */
+  a.button {
+    margin-top: 1.5rem;
+    padding: 0.75rem 2rem;
+  }
+}
+
+.project-card:hover {
+  transform: translateY(-8px); /* More pronounced hover lift */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* Increase shadow depth */
+}
+
+.project-card h3 {
+  margin-top: 1rem;
+  font-size: 1.3rem; /* Slightly smaller font size */
+  color: #333;
+}
+
+.project-card p {
+  font-size: 0.95rem; /* Reduced font size */
+  margin-bottom: 1rem;
+  color: #666;
+}
+
+.project-card .button {
+  background-color: #00aaff;
+  color: white;
+  padding: 0.6rem 1.2rem; /* Reduce padding */
+  font-size: 1rem; /* Adjust button font size */
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project-card .button:hover {
+  background-color: #0088cc;
+}
+
+.project-image {
+  width: 100%;
+  height: 180px; /* Adjust height to be consistent across images */
+  object-fit: cover; /* Ensures image consistency */
+  border-radius: 5px;
+  margin-bottom: 1.5rem;
 }
