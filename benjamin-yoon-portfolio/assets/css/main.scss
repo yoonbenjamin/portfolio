@@ -1,12 +1,12 @@
 --- 
 ---
 
+@import "{{ site.theme }}";
 /* main.css */
 @charset "utf-8";
 
 @import "minimal-mistakes/skins/air";
 /* Light theme */
-@import "minimal-mistakes";
 
 /* Main Color Palette */
 :root {
