@@ -4,7 +4,7 @@ title: "Blog"
 permalink: /blog/
 ---
 
-<h1>Welcome to My Blog!</h1>
+<!-- <h1>Welcome to My Blog!</h1>
 <p>Explore my journey through web development, machine learning, and cloud computing. Dive into tutorials and articles that break down complex technologies.</p>
 
 ---
@@ -28,4 +28,25 @@ Exploring how machine learning models can enhance fraud detection accuracy. This
 <div class="pagination">
   <a href="#">Previous</a>
   <a href="#">Next</a>
+</div> -->
+
+<style type="text/css" media="screen">
+  .container {
+    margin: 10px auto;
+    max-width: 600px;
+    text-align: center;
+  }
+  h1 {
+    margin: 30px 0;
+    font-size: 4em;
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+</style>
+
+<div class="container">
+  <h1>404</h1>
+
+  <p><strong>Blog Coming Soon</strong></p>
+  <p>Check back later for updates on software development, coding tutorials, and my thoughts on the latest tech trends!</p>
 </div>
